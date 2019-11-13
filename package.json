@@ -1,0 +1,10 @@
+{
+  "name": "asta.mobi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn; cd client; yarn && yarn build; cd ../server; NODE_ENV=development yarn",
+    "start": "cd server; yarn init:prod"
+  }
+}

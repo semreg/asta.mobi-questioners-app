@@ -1,0 +1,29 @@
+.title {
+  font-size: 3rem;
+}
+
+.desc {
+  font-size: 2rem;
+}
+
+.question_content {
+  font-size: 1.5rem;
+}
+
+.question_answer {
+  font-size: 1.2rem;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1.5rem;
+}
+
+.buttons > * {
+  display: block;
+}
+
+.right {
+  text-align: right;
+}
