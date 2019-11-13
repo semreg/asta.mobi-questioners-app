@@ -2,7 +2,7 @@ import { Router } from 'express'
 import questioners from './questioners'
 import answerlists from './answerLists'
 
-const router = Router()
+const router = new Router()
 
 router.use('/questioners', questioners)
 router.use('/answerLists', answerlists)
